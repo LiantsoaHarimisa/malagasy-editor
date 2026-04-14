@@ -16,7 +16,7 @@ export const API_ENDPOINTS = {
 } as const;
 
 export const API_CONFIG = {
-  timeout: 300000, // 300 seconds
+  timeout: 30000, // 30 seconds
   retryAttempts: 2,
   retryDelay: 1000, // 1 second
 };
